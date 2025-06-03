@@ -1,0 +1,164 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #492b7c;
+    color: white;
+    padding: 1.5rem 1rem;
+    border-bottom: 3px solid #313131;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.3rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #c2c2ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #a5a5ff;
+}
+
+/* Main sections */
+main {
+    padding: 2rem 1rem;
+}
+
+section,
+article,
+aside {
+    padding: 2rem 1rem;
+    min-height: 80vh;
+}
+
+#about {
+    background-color: #fffbc4;
+}
+
+#about h2 {
+    background-color: #c2ffff;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+figure {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Services */
+#programs {
+    background-color: #f4f4f4;
+}
+
+#programs h2 {
+    background-color: #88b3b3;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+#programs ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+/* Contact / Signup */
+#signup {
+    background-color: #492b7c;
+    color: white;
+    text-align: center;
+}
+
+#signup h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    margin: 1rem auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input[type="email"] {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #c2c2ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #a5a5ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #313131;
+    color: #fff;
+}

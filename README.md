@@ -1,18 +1,14 @@
-# 🎨 The Origins II: CSS
-
-Welcome to **The Origins II: CSS** GitHub repository! 🌈  
-This repo contains beginner-friendly CSS challenges and their solutions based on the [Codédex](https://www.codedex.io/css) platform. Whether you're just starting out or brushing up your CSS skills, this is the perfect place to learn by doing.
+<h1 align="center">🌈 The Origins II: CSS</h1>
+<p align="center">Beginner-Friendly CSS Challenges & Solutions from <a href="https://www.codedex.io/css" target="_blank">Codédex</a></p>
 
 ---
 
-## 🌐 Website
-
-Explore the official challenges here:  
-🔗 [https://www.codedex.io/css](https://www.codedex.io/css)
+## 🔗 Website
+👉 [Visit Codédex CSS Challenges](https://www.codedex.io/css)
 
 ---
 
-## 📁 Challenge Categories & Files
+## 🗂️ Challenge Categories & Files
 
 ### 🎯 Selectors
 - `picasso`
@@ -21,7 +17,7 @@ Explore the official challenges here:
 - `selectors-2`
 - `concert-flyer`
 
-### 🧰 Properties
+### 🎨 Properties
 - `rainbow`
 - `measurements`
 - `five-families`
@@ -50,7 +46,9 @@ Explore the official challenges here:
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/the-origins-css.git
-   cd the-origins-css
+```bash
+# Clone the repository
+git clone https://github.com/your-username/the-origins-css.git
+cd the-origins-css
+
+# Open any HTML file in your browser to view

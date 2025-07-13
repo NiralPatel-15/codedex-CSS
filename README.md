@@ -47,8 +47,7 @@
 ## 🚀 Getting Started
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/the-origins-css.git
+
 cd the-origins-css
 
 
